@@ -1,0 +1,87 @@
+.background {
+    background: url(./back.jpeg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: center;
+}
+*{
+    text-align: center;
+}
+.text {
+    font-family: "Dancing Script", cursive;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.Pro {
+    text-decoration: underline;
+}
+
+.profile {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.intro {
+    font-size: larger;
+}
+
+.Scnd {
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+h2 {
+    font-size: 35px;
+}
+.thrd {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px; 
+}
+.sk1, .sk2 {
+    display: flex; 
+    align-items: center;
+    width: 450px;
+    padding: 10px;
+    text-align: left; 
+    gap: 40px;
+}
+
+.image {
+    width: 200px;
+    height: 180px;
+}
+.btn{
+    background-color: #86AB89;
+    text-decoration: none;
+    padding: 15px 15px 15px 15px;
+    border-radius: 10%;
+    color: black;
+}
+.contact-me , .bottom-container{
+margin-top: 100px;
+margin-top: 100px;
+}
+.bottom-container{
+    background-color: #86AB89;
+    padding: 5%;
+
+}
+.footer-link{
+    color: black;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.contact-message{
+    margin-bottom: 60px;
+}
